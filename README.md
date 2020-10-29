@@ -152,6 +152,8 @@ console.dir(totalShirts());
  
  # Activity 2 Solved
 
+Technically any function where you use a variable declared outside of said function is a Closure.
+
 This is an example of closure because it uses the freeShirts variable declared globally inside of the function. Since the sale is just 3 shirts = to the customers 1 shirt purchased that value never has to change.
 
 But because all different customers can buy a different quantity of shirts that is a value discoverd in the function and then the math is done there.
