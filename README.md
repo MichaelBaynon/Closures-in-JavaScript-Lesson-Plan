@@ -93,7 +93,8 @@ Your boss came up to you and told you that for some reason she is not able to fi
 
 In your groups using the example above as your guide figure out why your boss can't find any Closures and then solve the issue.
 
-```function bio() {
+```
+function bio() {
   let name = "Amy";
   let job = "accountant";
   let salary = "100,000";
