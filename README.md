@@ -36,4 +36,13 @@ ________________________________________________________________________________
 
 If you found that complicated that is ok because we have a couple simple examples of closures.
 
+For our first example, this is the most simplistic form of closures.
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/basicExample.png)
+
+Due to the magic of closures we can access the "vehicle" variable inside of our function so when we call the vechicleType() function we don't have to pass in a value for "vehicle" it inherits it from the outside.
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/basicOutput.png)
+
+___________________________________________________________________________________________________________________________
 
