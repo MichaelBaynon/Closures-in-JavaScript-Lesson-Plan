@@ -174,6 +174,8 @@ function totalShirts() {
   return freeShirts * shirtsPurchased
 }
 
+// BONUS  var freeShirts = 2
+
 console.dir(totalShirts());
 ```
 
