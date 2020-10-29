@@ -30,3 +30,10 @@ If we had console logged on the outside of all the functions all the way at the 
 ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/introEdited.png)
 
 If you got "bob" again you would be right because the name variable defined in the "five" function only applies to the scope of that specific function there it doesn't change "name" to "sam" globally just locally inside of that function.
+
+________________________________________________________________________________________________________________________________
+
+
+If you found that complicated that is ok because we have a couple simple examples of closures.
+
+
