@@ -208,7 +208,11 @@ var compensation = function (salary) {
  
  # Activity 3 Solved
 
+Using the new keyword we can pass a new instance of compensation and then pass in a value for each developer type.
 
+In our console.logs we can pass in our bonuses which later gets used in our totalCompensation function to replace "bonus"
+
+Lastly we add both the salary and bonus which give us our "totalCompensation"
 
 ```
 var compensation = function (salary) {
