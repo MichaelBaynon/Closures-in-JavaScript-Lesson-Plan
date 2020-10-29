@@ -73,3 +73,24 @@ So the time line of our Javascript file in practice is as follows:
   * user clicks button which initiates ajax request 
   
   * ajax request can then go access the "key" variable declared before it 
+  
+  ___________________________________________________________________________________________________________________________
+  
+  # Activity 1 Example
+  
+  For this example we are creating a directory for our company.
+  
+  ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directory.png)
+  
+  We want our "name" variable passed along as a closure which we are actually doing succesfully as seen here:
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directoryOutput.png)
+
+
+# Activity 1
+
+Your boss came up to you and told you that for some reason she is not able to find the "Closure" for name, job, or salary for any of the employees in the directory even worse now the console.dir() is returning underfined.
+
+In your groups using the example above as your guide figure out why your boss can't find any Closures and then solve the issue.
+
+
