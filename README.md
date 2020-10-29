@@ -14,9 +14,11 @@ When you think about closure you have to think about the relationship variables 
 
 The Javascript documentation describes scope as: "The current context of execution. The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa."
 
-In this example on the first line, name is defined as "bob". In the "one" function we console log "name" and get exactly what we expect "bob".
+In this example on the first line, "name" is defined as "bob". In the "one" function we console log "name" and get exactly what we expect "bob".
 
 Where closure comes in is later down the file we redefine name to equal "sam" and when we console.log there we receive back "sam".
+
+____________________________________________________________________________________________________________________________________
 
 If we had console logged on the outside of all the functions all the way at the bottom what do you think the response would be?
 
