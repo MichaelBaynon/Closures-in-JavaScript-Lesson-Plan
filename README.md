@@ -87,7 +87,7 @@ So the time line of our Javascript file in practice is as follows:
 ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directoryOutput.png)
 
 
-# Activity 1
+# Activity 1 (group)
 
 Your boss came up to you and told you that for some reason she is not able to find the "Closure" for name, job, or salary for any of the employees in the directory even worse now the console.dir() is returning undefined.
 
