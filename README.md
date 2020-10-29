@@ -86,6 +86,7 @@ So the time line of our Javascript file in practice is as follows:
 
 ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directoryOutput2.png)
 
+ ___________________________________________________________________________________________________________________________
 
 # Activity 1 Unsolved
 Your boss came up to you and told you that for some reason she is not able to find the "Closure" for name, job, or salary for any of the employees in the directory even worse now the console.dir() is returning undefined.
@@ -103,6 +104,8 @@ console.dir(bio());
 ```
 
 Open up the response in the console and locate the "Closure" portion if you believe you have finished. If you see the "name", "job" and "salary" you are done :)
+
+ ___________________________________________________________________________________________________________________________
 
 # Activity 1 Solved
 
