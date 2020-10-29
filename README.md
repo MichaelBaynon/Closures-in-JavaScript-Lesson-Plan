@@ -18,7 +18,12 @@ In this example on the first line, "name" is defined as "bob". In the "one" func
 
 Where closure comes in is later down the file we redefine name to equal "sam" and when we console.log there we receive back "sam".
 
+
+
 ____________________________________________________________________________________________________________________________________
+
+
+
 
 If we had console logged on the outside of all the functions all the way at the bottom what do you think the response would be?
 
