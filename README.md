@@ -231,3 +231,23 @@ console.log(seniorSalary(30000));
 ```
 
 ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/example3Edited.png)
+
+ ___________________________________________________________________________________________________________________________
+ 
+ # Summary 
+
+Again as described by Mozilla:
+
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
+ ___________________________________________________________________________________________________________________________
+
+# Resources
+
+https://developer.mozilla.org/en-US/docs/Glossary/Scope
+
+https://www.w3schools.com/js/js_scope.asp
+
+https://www.w3schools.com/js/js_function_closures.asp#:~:text=This%20is%20called%20a%20JavaScript,the%20parent%20function%20has%20closed.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
