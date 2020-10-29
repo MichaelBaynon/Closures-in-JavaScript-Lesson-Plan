@@ -68,8 +68,8 @@ Since Javascript reads top to bottom and only reads what is immediatly called we
 
 So the time line of our Javascript file in practice is as follows:
 
-  * request function is created but not ran *
+  * request function is created but not ran 
   
-  * user clicks button which initiates ajax request *
+  * user clicks button which initiates ajax request 
   
-  * ajax request can then go access the "key" variable declared before it *
+  * ajax request can then go access the "key" variable declared before it 
