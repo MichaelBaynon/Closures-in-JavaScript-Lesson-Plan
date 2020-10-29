@@ -87,10 +87,37 @@ So the time line of our Javascript file in practice is as follows:
 ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directoryOutput2.png)
 
 
-# Activity 1 (group)
-
+# Activity 1 Unsolved
 Your boss came up to you and told you that for some reason she is not able to find the "Closure" for name, job, or salary for any of the employees in the directory even worse now the console.dir() is returning undefined.
 
 In your groups using the example above as your guide figure out why your boss can't find any Closures and then solve the issue.
 
+```function bio() {
+  let name = "Amy";
+  let job = "accountant";
+  let salary = "100,000";
+ // add code that will bring these variables into Closure
+}
+
+console.dir(bio());```
+
 Open up the response in the console and locate the "Closure" portion if you believe you have finished. If you see the "name", "job" and "salary" you are done :)
+
+# Activity 1 Solved
+
+Since your boss had not console.logged or used the variables anywhere Javascript had no need to pass those variables along as closure.
+
+Therefore the solution is simple as console.logging the variable in a return function as follows:
+
+```
+function bio() {
+  let name = "Amy";
+  let job = "accountant";
+  let salary = "100,000";
+  return function response() {
+    console.log(name, job, salary);
+  };
+}
+
+console.dir(bio());
+```
