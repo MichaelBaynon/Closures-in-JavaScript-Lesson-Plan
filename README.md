@@ -253,3 +253,5 @@ https://www.w3schools.com/js/js_function_closures.asp#:~:text=This%20is%20called
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+
+https://www.freecodecamp.org/news/javascript-closure-tutorial-with-js-closure-example-code/
