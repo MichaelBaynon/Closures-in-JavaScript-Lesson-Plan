@@ -108,7 +108,7 @@ Open up the response in the console and locate the "Closure" portion if you beli
 
 Since your boss had not console.logged or used the variables anywhere Javascript had no need to pass those variables along as closure.
 
-Therefore the solution is simple as console.logging the variable in a return function as follows:
+Therefore the solution is as simple as console.logging the variable in a return function as follows:
 
 ```
 function bio() {
