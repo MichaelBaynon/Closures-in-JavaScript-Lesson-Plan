@@ -33,6 +33,7 @@ If you got "bob" again you would be right because the name variable defined in t
 
 ________________________________________________________________________________________________________________________________
 
+#Basic Example
 
 If you found that complicated that is ok because we have a couple simple examples of closures.
 
@@ -55,3 +56,18 @@ If we were to redefine vehicle outside the function but beneath the variable dec
 
 ___________________________________________________________________________________________________________________________
 
+#Practical Example
+
+Suppose were using jquery and we were going to make an ajax request as seen here.
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/practicalExample.png)
+
+Since Javascript reads top to bottom and only reads what is immediatly called we could in theory have our ajax request be made on click.
+
+So the time line of our Javascript file in practice is as follows:
+
+  * request function is created but not ran *
+  
+  * user clicks button which initiates ajax request *
+  
+  * ajax request can then go access the "key" variable declared before it *
