@@ -182,3 +182,48 @@ console.dir(totalShirts());
  ___________________________________________________________________________________________________________________________
  
  # Activity 3 Unsolved
+
+Using the given code write 2 new variables. 1 for Junior Developers base salary  & another for Senior Developers base salary.
+
+using "console.log" pass the developers their bonuses.
+
+```
+var compensation = function (salary) {
+  var totalCompensation = function (bonus) {
+    return salary + bonus;
+  };
+
+  return totalCompensation;
+};
+
+// variables that gives juniors and senior their salaries
+
+// HINT "new" keyword can be helpful here
+
+// console logs that give the developers their bonuses
+
+```
+
+ ___________________________________________________________________________________________________________________________
+ 
+ # Activity 3 Solved
+
+
+
+```
+var compensation = function (salary) {
+  var totalCompensation = function (bonus) {
+    return salary + bonus;
+  };
+
+  return totalCompensation;
+};
+
+var juniorSalary = new compensation(70000);
+var seniorSalary = new compensation(100000);
+
+console.log(juniorSalary(15000));
+console.log(seniorSalary(30000));
+```
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/example3Edited.png)
