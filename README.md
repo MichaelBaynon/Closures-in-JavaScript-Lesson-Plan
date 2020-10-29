@@ -44,5 +44,11 @@ Due to the magic of closures we can access the "vehicle" variable inside of our 
 
 ![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/basicOutput.png)
 
+If we were to redefine vehicle outside the function but beneath the variable declaration we could actually change the value of the console.log as shown here:
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/basicAdded.png)
+
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/basicAddedOutput.png)
+
 ___________________________________________________________________________________________________________________________
 
