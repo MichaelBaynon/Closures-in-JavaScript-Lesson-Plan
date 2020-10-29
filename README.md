@@ -93,4 +93,4 @@ Your boss came up to you and told you that for some reason she is not able to fi
 
 In your groups using the example above as your guide figure out why your boss can't find any Closures and then solve the issue.
 
-
+Open up the response in the console and locate the "Closure" portion if you believe you have finished.
