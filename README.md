@@ -84,7 +84,7 @@ So the time line of our Javascript file in practice is as follows:
   
   We want our "name" variable passed along as a closure which we are actually doing succesfully as seen here:
 
-![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directoryOutput.png)
+![Intro Image Edited](https://github.com/MichaelBaynon/Closures-in-JavaScript-Lesson-Plan/blob/main/directoryOutput2.png)
 
 
 # Activity 1 (group)
