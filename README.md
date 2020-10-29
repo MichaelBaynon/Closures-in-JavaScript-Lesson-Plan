@@ -1,4 +1,6 @@
-# Closures-in-JavaScript-Lesson-Plan
+### Closures-in-JavaScript-Lesson-Plan
+
+# Introduction
 
 At first glance what do you think name will be when console.logged in the "one" function? What about the "five" function?
 
@@ -33,7 +35,7 @@ If you got "bob" again you would be right because the name variable defined in t
 
 ________________________________________________________________________________________________________________________________
 
-#Basic Example
+# Basic Example
 
 If you found that complicated that is ok because we have a couple simple examples of closures.
 
@@ -56,7 +58,7 @@ If we were to redefine vehicle outside the function but beneath the variable dec
 
 ___________________________________________________________________________________________________________________________
 
-#Practical Example
+# Practical Example
 
 Suppose were using jquery and we were going to make an ajax request as seen here.
 
