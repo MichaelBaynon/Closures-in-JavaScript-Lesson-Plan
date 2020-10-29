@@ -99,7 +99,8 @@ In your groups using the example above as your guide figure out why your boss ca
  // add code that will bring these variables into Closure
 }
 
-console.dir(bio());```
+console.dir(bio());
+```
 
 Open up the response in the console and locate the "Closure" portion if you believe you have finished. If you see the "name", "job" and "salary" you are done :)
 
