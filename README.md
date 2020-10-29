@@ -126,3 +126,50 @@ function bio() {
 
 console.dir(bio());
 ```
+
+ ___________________________________________________________________________________________________________________________
+ 
+ # Activity 2 Unsolved
+ 
+ Your company is having a deal on shirts so whenever a customer buys a shirt they get 3 free shirts per 1 purchased.
+ 
+ Your job is to right code to handle the total shirts purchased and multiply that times the freeShirts variable.
+
+
+```
+var freeShirts = 3;
+
+function totalShirts() {
+  // create a variable that represents how many shirts a costumer purchased
+  //for now this can be hardcoded to any number you would like
+  // then return the product of the freeShirts variable and your new variable using multiplication
+}
+
+console.dir(totalShirts());
+```
+
+ ___________________________________________________________________________________________________________________________
+ 
+ # Activity 2 Solved
+
+This is an example of closure because it uses the freeShirts variable declared globally inside of the function. Since the sale is just 3 shirts = to the customers 1 shirt purchased that value never has to change.
+
+But because all different customers can buy a different quantity of shirts that is a value discoverd in the function and then the math is done there.
+
+```
+var freeShirts = 3;
+
+function totalShirts() {
+  // create a variable that represents how many shirts a costumer purchased
+  //for now this can be hardcoded to any number you would like
+  // then return the sum of the freeShirts variable and your new variable
+  var shirtsPurchased = 5
+  return freeShirts * shirtsPurchased
+}
+
+console.dir(totalShirts());
+```
+
+ ___________________________________________________________________________________________________________________________
+ 
+ # Activity 3 Unsolved
