@@ -135,6 +135,11 @@ console.dir(bio());
  
  Your job is to right code to handle the total shirts purchased and multiply that times the freeShirts variable.
 
+### Bonus
+
+Sadly this sale was just way to costly so your company asked you to reduce the sale to 2 shirts = for every one purchased
+
+Without directly changing the initial freeShirts variable set on line 1 change the sale to be 2 times instead of 3 times
 
 ```
 var freeShirts = 3;
